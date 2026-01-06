@@ -1,6 +1,6 @@
 package com.avenga.kmpdemo
 
-class Greeting {
+class DeviceMonitor {
     private val platform = getPlatform()
 
     fun getSystemData(): DeviceInfo {

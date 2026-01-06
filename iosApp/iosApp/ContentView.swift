@@ -2,7 +2,7 @@ import SwiftUI
 import ComposeApp
 
 struct ContentView: View {
-    let logic = Greeting()
+    let logic = DeviceMonitor()
     
     @State private var showContent = false
     @State private var info: DeviceInfo?

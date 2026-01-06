@@ -1,4 +1,3 @@
-// App.kt
 package com.avenga.kmpdemo
 
 import androidx.compose.animation.AnimatedVisibility
@@ -22,8 +21,8 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 fun App() {
     MaterialTheme {
         var showContent by remember { mutableStateOf(false) }
-        val greeting = remember { Greeting() }
-        val info = remember { greeting.getSystemData() }
+        val deviceMonitor = remember { DeviceMonitor() }
+        val info = remember { deviceMonitor.getSystemData() }
 
         Column(
             modifier = Modifier
