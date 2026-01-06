@@ -1,7 +1,7 @@
 package com.avenga.kmpdemo
 
 interface Platform {
-    val name: String
+    fun getDeviceInfo(): DeviceInfo
 }
 
 expect fun getPlatform(): Platform
